@@ -1,0 +1,147 @@
+/* DEVELOPER: Fabian Silva Almeida, IS117-002, Spring 2024 */
+
+    .home-button {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000; /* Ensure it's above other content */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+header {
+    background-color: #003366;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+header img {
+    height: 80px;
+    margin-right: 15px;
+    border: 2px solid #000000; /* Add a 2px border with the specified color */
+}
+header img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+/* Centering the Navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.container-fluid {
+    width: auto; /* Adjusts the width to fit content */
+}
+
+.navbar-brand {
+    margin-right: 20px; /* Adds space after the brand */
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+nav ul {
+    float: left;
+    width: 100%; /* Adjusted for full width */
+    list-style: none; /* Removes bullet points from list */
+    display: flex;
+    justify-content: center; /* Center items */
+    padding: 0; /* Removes default padding */
+}
+.highlight {
+    color: white;     
+    font-size: larger; 
+	vertical-align: top;
+    line-height: normal;       
+}
+div.image {
+    text-align: center;
+}
+
+div.image img {
+    border: 2px solid #000000;
+    display: block;
+    margin: 0 auto;
+}
+h6 em {
+    font-style: italic;
+}
+
+body h6{
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+    color: white;
+}
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    line-height: 1.5; /* Adjust line height for better legibility */
+	color: #00ffcc;
+}
+
+main {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+main h3 {
+    font-size: 24px; /* Increase heading font size */
+}
+
+main p {
+    font-size: 18px; /* Increase paragraph font size */
+}
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: #fff; 
+}
+
+.nav-item.active .nav-link {
+    background-color: #FFCC00;
+    color: #000; 
+}
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+.logo-container {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000; /* Ensure logo is on top of other content */
+        }
+
+        .logo-container img {
+            width: 50px; /* Adjust the size of the logo */
+            height: auto;
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        main {
+            color: white; /* Changing text color to white */
+        }
+
+        h3, h2 {
+            color: black;
+        }

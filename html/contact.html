@@ -1,0 +1,127 @@
+<!-- DEVELOPER: Fabian Silva Almeida, IS117-002, Spring 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../styles/content03.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #008fcc;
+            color: white;
+            text-align: center; /* Center align text */
+        }
+        
+        .paragraph {
+            background-color: #003366;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        
+        .form-control,
+        .btn {
+            color: black; /* Change form and button text color back to black */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Logo -->
+<a href="../index.html" class="home-button">
+    <img src="..\images\Water_Polo_Logo.jpeg" alt="Water Polo Logo" style="width: 100px;">
+</a>
+
+<!-- Header -->
+<header style="background-color: #008fcc;">
+    <div>
+        <h2><b>New Jersey Water Polo Community</b></h2>
+    </div>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-md justify-content-center bg-dark navbar-dark">
+    <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">Home</a>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/history.html">Water Polo History</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                        Learn to Play Water Polo!
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../html/positions.html">Positions</a>
+                        <a class="dropdown-item" href="../html/rules.html">Rules</a>
+                        <a class="dropdown-item" href="../html/training-videos.html">Training</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="paragraph">
+    <p>We invite you to join the water polo community by subscribing to our email list. Please fill out the form below to stay updated with our latest content and offerings. Thank you for your interest and support!</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <form action="">
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="First name" name="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Last name" name="lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="subscribe"> Subscribe
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer page-footer font-small text-center d-flex align-items-center" style="background-color: #000000; color: #000000;">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy;Fabian Silva Almeida, 2024 | Terms Of Use | Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and Popper.js (required for Bootstrap's JavaScript components) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>
